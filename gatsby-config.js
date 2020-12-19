@@ -32,15 +32,7 @@ module.exports = {
         externalLinks: [
           {
             name: `Twitter`,
-<<<<<<< HEAD
-            url: `https://twitter.com/landon_rainwater_llp`,
-          },
-          {
-            name: `Instagram`,
-            url: `https://www.instagram.com/landon_rainwater_llp/`,
-=======
             url: `https://twitter.com/bluejeanlawyer`,
->>>>>>> 4d7181cc37d42c985dfdaac0ed8db57fbb604841
           },
         ],
       },
@@ -57,7 +49,7 @@ module.exports = {
       options: {
         name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
         short_name: `minimal-blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        description: `Landon and Rainwater LLP. Attorneys at Law `,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
