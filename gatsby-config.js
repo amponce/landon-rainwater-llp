@@ -1,12 +1,14 @@
 require(`dotenv`).config({
   path: `.env`,
-})
+});
 
-const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
+const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: 'Landon Rainwater LLP',
+    siteHeadline: 'Mediation and Law Office',
+    siteTitleAlt: `Landon Rainwater - LLP`,
   },
   plugins: [
     {
@@ -15,22 +17,22 @@ module.exports = {
       options: {
         navigation: [
           {
-            title: `Blog`,
-            slug: `/blog`,
+            title: `Services`,
+            slug: `/services`,
           },
           {
             title: `About`,
             slug: `/about`,
           },
+          {
+            title: `Blog`,
+            slug: `/blog`,
+          },
         ],
         externalLinks: [
           {
             name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
-          },
-          {
-            name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            url: `https://twitter.com/bluejeanlawyer`,
           },
         ],
       },
@@ -77,4 +79,4 @@ module.exports = {
       },
     },
   ].filter(Boolean),
-}
+};
