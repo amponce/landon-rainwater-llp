@@ -2,24 +2,11 @@
   Landon Rainwater LLP
 </h1>
 
-## ✨ Features
-
-- MDX
-- Fully customizable through the usage of Gatsby Themes (and Theme UI)
-- Light Mode / Dark Mode
-- Typography driven, minimal style
-- Tags/Categories support
-- Code highlighting with [prism-react-renderer](https://github.com/FormidableLabs/prism-react-renderer) and [react-live](https://github.com/FormidableLabs/react-live) support. Also allows adding line numbers, line highlighting, language tabs, and file titles.
-- RSS Feed for blog posts
-- Google Analytics Support
-- SEO (Sitemap, OpenGraph tags, Twitter tags)
-- Offline Support & WebApp Manifest
-
 ## 🚀 Getting Started
 
-1. **Create a Gatsby site.**
+1. **Setup your enviroment.**
 
-Clone there repo to your local development directory
+Clone the repo to local development directory
 
 ```sh
 git clone https://github.com/amponce/landon-rainwater-llp
@@ -37,73 +24,6 @@ gatsby develop
 3. **Open the code and start customizing!**
 
 Your site is now running at `http://localhost:8000`!
-
-**Language tabs:**
-
-When you add a language (such as e.g. `js` or `javascript`) to the code block, a little tab will appear at the top left corner.
-
-````
-```js
-// code goes here
-```
-````
-
-**Code titles:**
-
-You can display a title (e.g. the file path) above the code block.
-
-````
-```jsx:title=your-title
-// code goes here
-```
-````
-
-Or without a specific language:
-
-````
-```:title=your-title
-// code goes here
-```
-````
-
-**Line highlighting:**
-
-You can highlight single or multiple (or both) lines in a code block. You need to add a language.
-
-````
-```js {2,4-5}
-const test = 3
-const foo = 'bar'
-const harry = 'potter'
-const hermione = 'granger'
-const ron = 'weasley'
-```
-````
-
-**Hide line numbers:**
-
-If you want to hide line numbers you can either globally disable them (see Theme options) or on a block-by-block basis. You can also combine that with the other attributes.
-
-````
-```noLineNumbers
-// code goes here
-```
-````
-
-**react-live:**
-
-Add `react-live` to the code block (and render the component) to see a preview below it.
-
-````
-```js react-live
-const onClick = () => {
-  alert("You opened me");
-};
-render(<button onClick={onClick}>Alohomora!</button>);
-```
-````
-
-### Adding content
 
 #### Adding a new blog post
 
@@ -154,10 +74,15 @@ slug: '/about'
 
 The `static` folder contains the icons, social media images and robots.txt. Don't forget to change these files, too!
 
-## 🎓 Learning Gatsby
+## ✨ Features
 
-Looking for more guidance? Full documentation for Gatsby lives [on Gatsby's website](https://www.gatsbyjs.org/).
-
-### Themes
-
-- To learn more about Gatsby themes specifically, we recommend checking out the [theme docs](https://www.gatsbyjs.org/docs/themes/).
+- MDX
+- Fully customizable through the usage of Gatsby Themes (and Theme UI)
+- Light Mode / Dark Mode
+- Typography driven, minimal style
+- Tags/Categories support
+- Code highlighting with [prism-react-renderer](https://github.com/FormidableLabs/prism-react-renderer) and [react-live](https://github.com/FormidableLabs/react-live) support. Also allows adding line numbers, line highlighting, language tabs, and file titles.
+- RSS Feed for blog posts
+- Google Analytics Support
+- SEO (Sitemap, OpenGraph tags, Twitter tags)
+- Offline Support & WebApp Manifest
