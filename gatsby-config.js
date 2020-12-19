@@ -6,7 +6,9 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: 'Landon Rainwater LLP',
+    siteHeadline: 'Mediation and Law Office',
+    siteTitleAlt: `Landon Rainwater - LLP`,
   },
   plugins: [
     {
@@ -15,22 +17,30 @@ module.exports = {
       options: {
         navigation: [
           {
-            title: `Blog`,
-            slug: `/blog`,
+            title: `Services`,
+            slug: `/services`,
           },
           {
             title: `About`,
             slug: `/about`,
           },
+          {
+            title: `Blog`,
+            slug: `/blog`,
+          },
         ],
         externalLinks: [
           {
             name: `Twitter`,
+<<<<<<< HEAD
             url: `https://twitter.com/landon_rainwater_llp`,
           },
           {
             name: `Instagram`,
             url: `https://www.instagram.com/landon_rainwater_llp/`,
+=======
+            url: `https://twitter.com/bluejeanlawyer`,
+>>>>>>> 4d7181cc37d42c985dfdaac0ed8db57fbb604841
           },
         ],
       },
